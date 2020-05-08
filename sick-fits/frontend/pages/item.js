@@ -1,3 +1,9 @@
-import Home from "./index";
+import SingleItem from "../components/SingleItem";
 
-export default Home;
+const Item = ({ query }) => (
+  <div>
+    <SingleItem id={query.id} />
+  </div>
+);
+
+export default Item;
