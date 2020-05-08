@@ -1,8 +1,8 @@
 import UpdateItem from "../components/UpdateItem";
 
-const Sell = (props) => (
+const Sell = ({ query }) => (
   <div>
-    <UpdateItem />
+    <UpdateItem id={query.id} />
   </div>
 );
 
